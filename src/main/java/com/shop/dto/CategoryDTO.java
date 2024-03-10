@@ -12,5 +12,5 @@ import lombok.*;
 public class CategoryDTO {
     @NotBlank(message = "Name can not blank")
     private String name;
-    private long parentId;
+    private Long parentId;
 }
